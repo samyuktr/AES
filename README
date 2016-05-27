@@ -1,0 +1,35 @@
+AES - 
+
+
++-------+
+| BUILD |
++-------+
+
+Comments: make
+
++---------+
+|TESTCASES|
++---------+
+
+The commandline syntax is as follows:
+    hw5 tablecheck -t=tablefile
+    hw5 modprod -p1=poly1 -p2=poly2
+    hw5 keyexpand -k=key -t=tablefile
+    hw5 encrypt -k=key -t=tablefile [file]
+    hw5 decrypt -k=key -t=tablefile [file]
+    hw5 inverse -p=poly
+
+
+
+No warnings. 
+Bad command line handled. 
+
+
+Files in the zip - 
+
+main.c - main file with command line parsing.
+encrypt.c - contains encrypt, decrypt and inverse functions.
+tablecheck.c - does required check on table file given.
+modprod.c - computes mod product.
+hw5.h - header file.
+Makefile - used for make.
